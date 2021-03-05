@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #252a34;
+  color: #eaeaea;
+}
+
+h1 {
+  font-size: 5.62rem;
+  /*16px = 100% = 1em*/
+  color: #08d9d6;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #08d9d6;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff2e63;
+}
+
+hr {
+  border-color: #364f6b;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 2px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a:hover {
+  color: #eaeaea;
+}
+
+.top-container {
+  background-color: #252a34;
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.middle-container {
+  background-color: #252a34;
+  margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+  background-color: #00adb5;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 280px;
+  top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 280px;
+  bottom: 280px;
+}
+
+.profile-picture {
+  height: 200px;
+  width: 200px;
+  margin-top: 8px;
+}
+
+.skill-giphy {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.certificate-giphy {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-description {
+  margin: 0 auto 16px auto;
+  font-size: 1.2em;
+}
+
+.footer-copyright {
+  color: gray;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #2d4059;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contactme-text {
+  color: #08d9d6;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto auto 16px auto;
+  line-height: 2;
+}
+
+.contact-me-description {
+  width: 30%;
+  margin: 40px auto 60px;
+  line-height: 2;
+}
+
+.contact-me-btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #1199E9);
+  background-image: -moz-linear-gradient(top, #11CDD4, #1199E9);
+  background-image: -ms-linear-gradient(top, #11CDD4, #1199E9);
+  background-image: -o-linear-gradient(top, #11CDD4, #1199E9);
+  background-image: -webkit-gradient(to bottom, #11CDD4, #1199E9);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-me-btn:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/*
+Position: static(default html rules)
+        : relative() -> we can manually control it with coordinate properties left,right
+        : absolute() -> It will work through it's parents box coordinates
+        : fixed() -> It will be fixed to the given value
+
+*/
